@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<application>
+	<name>MP4播放支持</name>
+	<alias>MedzDispalyMP4</alias>
+	<version>1.1</version>
+	<pw-version>9.0.1</pw-version>
+	<description>支持编辑器的视频插入支持MP4。</description>
+	<logo>http://medz.cn/windid/attachment/avatar/000/00/00/1.jpg</logo>
+	<type>app</type>
+	<charset>UTF-8</charset>
+	<website>http://medz.cn</website>
+	<author-name>Medz Seven</author-name>
+	<author-email>lovevipdsw@vip.qq.com</author-email>
+	<author-icon>http://medz.cn/windid/attachment/avatar/000/00/00/1.jpg</author-icon>
+	</application>
+	<res>res</res>
+	<installation-service>
+	</installation-service>
+	<inject-services>
+		<m_PwThreadDisplay>
+			<app_MedzDispalyMP4>
+				<class>EXT:MedzDispalyMP4.service.srv.App_MedzDispalyMP4PwThreadDisplayDo</class>
+				<description>this is another m_PwThreadDisplay</description>
+			</app_MedzDispalyMP4>
+		</m_PwThreadDisplay>
+	</inject-services>
+	</manifest>
